@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/*.color1 {color: #092a25;}
+.color2 {color: #155865;}
+.color3 {color: #d48d68;}
+.color4 {color: #d9ca82;}
+.color5 {color: #e8e8c9;} */
+a:link {
+    text-decoration: none;
+}
+   
+a:hover {
+    color:#d48d68;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+  
+li {
+    list-style: none;    
+}
+
+.menu{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #155865;
+}
+      
+.menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+  
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+  
+.lista-menu li>a{
+    color: #e8e8c9;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    background-color: #d9ca82;
+}
+
+.nome{
+    font-size: 32px;
+    color: #092a25;
+    font-weight: 700; /*espessura*/
+    height: 40px;
+    padding-top: 20px;
+}
+
+.profissao{
+    font-size: 22px;
+    height: 60px;
+    color: #d48d68;
+}
+
+.container {
+    margin-right: auto; /*uma margem automática para todos os lados  */
+    margin-left: auto;
+    margin-top: 75px; /*Margem para cima*/
+    max-width: 960px; /*largura maxima*/
+    padding-right: 10px; /* Espaçamento direito*/
+    padding-left: 10px; /*Espaçamento esquerdo*/
+    width: 100%; /*largura*/
+}
+
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.biografia{
+    font-size: 20px;
+  line-height: 32px;
+}
+
+.article-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.topico-principal{
+    font-size: 36px;
+    color:#092a25 ;
+}
+
+.lista-item{
+    padding: 32px;
+}
+
+.lista-titulo{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #155865;
+    font-weight: 700;
+}
+
+.lista-descricao{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+    padding: 8px;
+    padding-bottom: 20px;
+}
+
+.lista-local{
+    font-size: 18px;
+    color: #092a25;
+}
+
+.rodape{
+    background-color: #155865;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.lista-rodape li{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    padding: 3px;    
+}
+
+.meio {
+    height: 100vh;
+    display: flex;
+    background-color: #e8e8c9;
+}
+
+
