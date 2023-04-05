@@ -14,7 +14,7 @@ a:link {
 }
    
 a:hover {
-    color:#d48d68;
+    color:#a2526f;
 }
 
 body{
@@ -73,7 +73,7 @@ li {
 .profissao{
     font-size: 22px;
     height: 60px;
-    color: #d48d68;
+    color: #a2526f;
 }
 
 .container {
@@ -140,7 +140,7 @@ li {
 
 .rodape{
     background-color: #155865;
-    height: auto;
+    height: 32vh;
     display: flex;
     align-items: center;
 }
@@ -152,7 +152,7 @@ li {
     margin-bottom: 16px;
     display: flex;
     align-items: center;
-    padding: 3px;    
+
 }
 
 .meio {
@@ -161,4 +161,14 @@ li {
     background-color: #e8e8c9;
 }
 
+.avatar{
+    width: 200px;
+    height: 200px;
+}
 
+.estilo-icon{
+
+    font-size: 25px;
+    margin-right: 10px;
+
+}
