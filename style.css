@@ -158,6 +158,14 @@ li {
 
 }
 
+.gif{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-content: center;
+    margin-left: 60px;
+}
+
 .meio {
     height: 100vh;
     display: flex;
